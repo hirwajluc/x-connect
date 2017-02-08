@@ -267,8 +267,8 @@
             "pre-approved": "These are sites that have been pre-approved by an administrator.",
             "text": "These are sites you have approved manually. If the same site asks for the same access in the future, it will be granted without prompting.",
             "unknown": "Unknown",
-            "whitelist-note": "<b>NOTE:</b> If you revoke them here, they will automatically be re-approved on your next visit wthout prompting.",
-            "whitelisted-site": "This site was whitelisted by an adminstrator",
+            "whitelist-note": "<b>NOTE:</b> If you revoke them here, they will automatically be re-approved on your next visit without prompting.",
+            "whitelisted-site": "This site was whitelisted by an administrator",
             "whitelisted-sites": "Whitelisted Sites"
         }
     },
@@ -277,7 +277,7 @@
     },
     "label": {
         "user": {
-            "userName": "Username",
+            "userName": "EmailID",
             "email": "Email",
             "password": "Password",
             "confirmPass": "Password confirmation",
@@ -362,7 +362,7 @@
             "no-refresh": "There are no active refresh tokens.",
             "number-of-tokens": "Number of associated access tokens",
             "refresh-tokens": "Refresh Tokens",
-            "text": "Access tokens are usually short-lived and provide clients with access to specific resources. ID Tokens are specialized access tokens to facilitate log on using OpenID Connect.",
+            "text": "Access tokens are usually short-lived and provide clients with access to specific resources. ID Tokens are specialized access tokens to facilitate log on using XConnect.",
             "text-refresh": "Refresh tokens are usually long-lived and provide clients with the ability to get new access tokens without end-user involvement.",
             "token-info": "Token Information"
         }
@@ -394,7 +394,7 @@
 	"copyright": "Powered by <a href=\"https://www.fiatope.com/digital/\">Fiatope Digital Services <span class=\"label\">{0}</span></a>",
 	"about": {
 		"title": "About",
-		"body": "\nThis OpenID Connect service is built from the MITREid Connect Open Source project, from \n<a href=\"http://www.mitre.org/\">The MITRE Corporation</a> and the <a href=\"http://kit.mit.edu/\">MIT Internet Trust Consortium</a>.\n</p>\n<p>\nMore information about the project can be found at \n<a href=\"http://github.com/mitreid-connect/\">MITREid Connect on GitHub</a>. \nThere, you can submit bug reports, give feedback, or even contribute code patches for additional features you'd like to see."
+		"body": "\nThis XConnect service is built from the MITREid Connect Open Source project, from \n<a href=\"http://www.mitre.org/\">The MITRE Corporation</a> and the <a href=\"http://kit.mit.edu/\">MIT Internet Trust Consortium</a>.\n</p>\n<p>\nMore information about the project can be found at \n<a href=\"http://github.com/mitreid-connect/\">MITREid Connect on GitHub</a>. \nThere, you can submit bug reports, give feedback, or even contribute code patches for additional features you'd like to see."
 	},
 	"statistics": {
 		"title": "Statistics",
@@ -411,11 +411,11 @@
 		"more": "More",
 		"about": {
 			"title": "About",
-			"body": "This OpenID Connect service is built from the MITREid Connect Open Source project, from \n<a href=\"http://www.mitre.org/\">The MITRE Corporation</a> and the <a href=\"http://kit.mit.edu/\">MIT Internet Trust Consortium</a>."
+			"body": "This XConnect service is built from the MITREid Connect Open Source project, from \n<a href=\"http://www.mitre.org/\">The MITRE Corporation</a> and the <a href=\"http://kit.mit.edu/\">MIT Internet Trust Consortium</a>."
 		},
 		"contact": {
 			"title": "Contact",
-			"body": "\nFor more information or support, contact the administrators of this system.</p>\n<p><a class=\"btn\" href=\"mailto:idp@example.com?Subject=OpenID Connect\">Email &raquo;</a>"
+			"body": "\nFor more information or support, contact the administrators of this system.</p>\n<p><a class=\"btn\" href=\"mailto:idp@xconnectafrica.com?Subject=XConnect\">Email &raquo;</a>"
 		},
 		"statistics": {
 			"title": "Current Statistics",
@@ -515,7 +515,7 @@
 		"login_with_username_and_password": "Sign in to your X-Connect account",
 		"login_with_phone": "Login with a one time password send on your phone",
 		"login_with_otp": "Login with the code sent to your phone",
-		"username": "Enter your username",
+		"username": "Enter your EmailID",
 		"password": "Enter your password",
         "otptoken": "Enter the token",
 		"phone": "Enter your phone number",

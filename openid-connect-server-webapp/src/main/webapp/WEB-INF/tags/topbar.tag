@@ -37,8 +37,8 @@
 			<a class="brand" href="">
 				<img src="${ config.logoImageUrl }" />
 				<span>
-					<span class="visible-phone">${config.shortTopbarTitle}</span> 
-					<span class="hidden-phone">${config.topbarTitle}</span>
+					<span class="visible-phone">XConnect</span> 
+					<span class="hidden-phone">XConnect</span>
 				</span>
 			</a>
 			<c:if test="${ not empty pageName }">

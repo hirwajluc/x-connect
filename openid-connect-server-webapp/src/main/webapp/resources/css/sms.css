@@ -1,0 +1,106 @@
+/* CSS Document */
+
+body{
+background-color:#e7eff7;
+}
+
+table.login_table{
+    width:auto;  
+    height: auto;   
+	FONT-SIZE: 12px; 
+    FONT-FAMILY: Verdana,Tahoma, Arial,sans-serif;
+	color: #FFFFFF;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+input.login_input_text{
+	FONT-SIZE: 12px; 
+	FONT-FAMILY: Verdana,Tahoma, Arial,sans-serif;
+	BACKGROUND-COLOR: #e7eff7;
+	width: 110px;
+}
+
+input.button_connecter{
+    BORDER-BOTTOM: #004080 1px solid; 
+	BORDER-RIGHT: #004080 1px solid; 
+	BORDER-LEFT: #004080 1px solid; 
+	BORDER-TOP: #004080 1px solid; 
+	FONT-SIZE: 12px; 
+	FILTER: progid:DXImageTransform.Microsoft.Shadow(color=#999999,direction=125,strength=3); 
+	COLOR: #1B1B1B; 
+	FONT-FAMILY: Verdana,Tahoma, Arial,sans-serif; 
+	HEIGHT: 25px; 
+	BACKGROUND-COLOR: #88FF88;
+	width: 90px;
+}
+
+p.msg_eror{ 
+    padding-top: 15px;
+	padding-left: 7px;
+	FONT-SIZE: 13px; 
+    FONT-FAMILY: Verdana,Tahoma, Arial,sans-serif;
+	color: #FFFFFF;
+	FONT-WEIGHT: bold;
+}
+
+b.doleance {
+	font-size: 14px;
+	font-weight: bold;
+	color: #5BAC26;
+}
+
+p{
+    margin-top: 5px;
+    margin-left:3px;
+	margin-right:8px;
+    font-size:12px;
+	color : #000000;
+	line-height:15px;
+  FONT-FAMILY: Arial,Verdana,Tahoma, ans-serif;
+}
+
+
+A.Link_log_out_dolenace:link {	
+	font-size: 11px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #009900;	
+}
+
+A.Link_log_out_dolenace:visited {
+	font-size: 11px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #009900;	
+}
+
+A.Link_log_out_dolenace:hover {
+	font-size: 11px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #E61E06;
+}
+
+
+
+A.Link_login_dolenace:link {	
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #FFFFFF;	
+}
+
+A.Link_login_dolenace:visited {
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #FFFFFF;	
+}
+
+A.Link_login_dolenace:hover {
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #006633;
+}

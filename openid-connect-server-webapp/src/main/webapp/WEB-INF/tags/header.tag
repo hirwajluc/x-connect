@@ -10,7 +10,8 @@
     <base href="${config.issuer}">
 
     <meta charset="utf-8">
-    <title>${config.topbarTitle} - ${title}</title>
+    <!--<title>${config.topbarTitle} - ${title}</title>-->
+<title>XConnect - ${title}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -50,7 +51,7 @@
         moment.locale("${config.locale}");
     	// safely set the title of the application
     	function setPageTitle(title) {
-    		document.title = "${config.topbarTitle} - " + title;
+    		document.title = "XConnect - " + title;
     	}
     	
 		// get the info of the current user, if available (null otherwise)
